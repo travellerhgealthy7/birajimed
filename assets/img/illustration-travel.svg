@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Travel health illustration showing a globe, flight path and passport">
+  <defs>
+    <linearGradient id="tSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1FAF8"/><stop offset="1" stop-color="#DCF2EE"/>
+    </linearGradient>
+    <linearGradient id="tGlobe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3FAFA2"/><stop offset="1" stop-color="#06463F"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#tSky)"/>
+  <circle cx="380" cy="60" r="110" fill="#B6E4DD" opacity=".55"/>
+  <circle cx="70" cy="320" r="120" fill="#DCF2EE"/>
+
+  <!-- globe -->
+  <g transform="translate(96 168)">
+    <circle r="92" fill="url(#tGlobe)"/>
+    <g fill="none" stroke="#DCF2EE" stroke-width="2" opacity=".55">
+      <ellipse rx="40" ry="92"/>
+      <ellipse rx="70" ry="92"/>
+      <path d="M-92 0h184M-92-46h184M-92 46h184"/>
+    </g>
+    <path d="M-58-24c14-16 34-6 48-16s4-28 22-30 30 20 44 14" fill="none" stroke="#FCEFD8" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"/>
+    <path d="M-34 40c12 18 34 26 52 18" fill="none" stroke="#FCEFD8" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"/>
+  </g>
+
+  <!-- flight path -->
+  <path d="M118 108C190 40 300 44 372 96" fill="none" stroke="#0D7A6D" stroke-width="2.6" stroke-dasharray="7 9" stroke-linecap="round"/>
+  <g transform="translate(372 96) rotate(28)">
+    <path d="M0-22 20-6 20 4 4-2 4 12 10 17 10 21 0 18-10 21-10 17-4 12-4-2-20 4-20-6 0-22Z" fill="#E2951F"/>
+  </g>
+
+  <!-- passport -->
+  <g transform="translate(296 168)">
+    <rect x="0" y="0" width="120" height="150" rx="12" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <rect x="14" y="14" width="92" height="86" rx="9" fill="#DCF2EE"/>
+    <circle cx="60" cy="48" r="17" fill="#0D7A6D"/>
+    <path d="M60 26c8 0 14 6 14 13v4c0 6-6 11-14 11s-14-5-14-11v-4c0-7 6-13 14-13Z" fill="#fff"/>
+    <path d="M26 82c10-12 24-18 34-18s24 6 34 18" fill="#B6E4DD"/>
+    <rect x="14" y="112" width="58" height="7" rx="3.5" fill="#E0EDEA"/>
+    <rect x="14" y="126" width="40" height="7" rx="3.5" fill="#E0EDEA"/>
+    <circle cx="92" cy="122" r="14" fill="none" stroke="#E2951F" stroke-width="3"/>
+    <path d="m86 122 4 4 8-8" fill="none" stroke="#E2951F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- shield check -->
+  <g transform="translate(58 268)">
+    <path d="M0-22 20-14v12c0 13-9 21-20 25C-11 19-20 11-20-2v-12L0-22Z" fill="#06463F"/>
+    <path d="m-9 0 7 7 12-13" fill="none" stroke="#7FCEC3" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

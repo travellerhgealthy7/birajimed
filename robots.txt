@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://birajimedicine.com.np/sitemap.xml

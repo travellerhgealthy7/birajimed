@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Vaccination illustration showing a vaccine vial and syringe">
+  <defs>
+    <linearGradient id="vBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1FAF8"/><stop offset="1" stop-color="#DCF2EE"/>
+    </linearGradient>
+    <linearGradient id="vVial" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3FAFA2"/><stop offset="1" stop-color="#0A6157"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#vBg)"/>
+  <circle cx="392" cy="308" r="118" fill="#B6E4DD" opacity=".6"/>
+  <circle cx="58" cy="52" r="72" fill="#FCEFD8" opacity=".85"/>
+
+  <!-- calendar / immunisation card -->
+  <g transform="translate(46 96)">
+    <rect width="168" height="164" rx="14" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <rect x="0" y="0" width="168" height="42" rx="14" fill="#06463F"/>
+    <rect x="0" y="28" width="168" height="14" fill="#06463F"/>
+    <text x="84" y="28" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#fff">Immunisation</text>
+    <g fill="#DCF2EE">
+      <rect x="20" y="62" width="22" height="18" rx="5"/><rect x="52" y="62" width="22" height="18" rx="5"/>
+      <rect x="84" y="62" width="22" height="18" rx="5"/><rect x="116" y="62" width="22" height="18" rx="5"/>
+    </g>
+    <g fill="#B6E4DD">
+      <rect x="20" y="92" width="22" height="18" rx="5"/><rect x="52" y="92" width="22" height="18" rx="5"/>
+      <rect x="84" y="92" width="22" height="18" rx="5"/>
+    </g>
+    <rect x="116" y="92" width="22" height="18" rx="5" fill="#E2951F"/>
+    <rect x="20" y="122" width="22" height="18" rx="5" fill="#B6E4DD"/>
+    <rect x="52" y="122" width="22" height="18" rx="5" fill="#B6E4DD"/>
+    <rect x="84" y="122" width="46" height="18" rx="5" fill="#DCF2EE"/>
+  </g>
+
+  <!-- vial -->
+  <g transform="translate(300 96)">
+    <rect x="-34" y="-16" width="68" height="26" rx="8" fill="#06463F"/>
+    <rect x="-27" y="10" width="54" height="126" rx="14" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <path d="M-27 74h54v50a14 14 0 0 1-14 14h-26a14 14 0 0 1-14-14Z" fill="url(#vVial)"/>
+    <rect x="-16" y="42" width="32" height="26" rx="6" fill="#F1FAF8" stroke="#C9DED9" stroke-width="2"/>
+    <path d="M0 50v10M-5 55h10" stroke="#0A6157" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- syringe -->
+  <g transform="translate(150 246) rotate(-18)">
+    <rect x="-8" y="0" width="16" height="92" rx="7" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <rect x="-8" y="40" width="16" height="52" rx="7" fill="#3FAFA2"/>
+    <rect x="-44" y="-16" width="88" height="16" rx="8" fill="#06463F"/>
+    <rect x="-14" y="92" width="8" height="30" rx="3" fill="#B4C8C5"/>
+    <path d="M-4 122h8" stroke="#8AA4A0" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- shield -->
+  <g transform="translate(96 300)">
+    <path d="M0-20 19-12v11c0 12-8 20-19 24C-11 19-19 11-19-1v-11L0-20Z" fill="#0A6157"/>
+    <path d="m-8 0 6 6 11-12" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Home healthcare illustration showing a home, nurse and patient">
+  <defs>
+    <linearGradient id="hBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1FAF8"/><stop offset="1" stop-color="#DCF2EE"/>
+    </linearGradient>
+    <linearGradient id="hHouse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D7A6D"/><stop offset="1" stop-color="#06463F"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#hBg)"/>
+  <circle cx="72" cy="300" r="112" fill="#B6E4DD" opacity=".6"/>
+  <circle cx="412" cy="64" r="78" fill="#FCEFD8" opacity=".9"/>
+
+  <!-- house -->
+  <g transform="translate(228 178)">
+    <path d="M-104 6 0-72 104 6v104a12 12 0 0 1-12 12h-184a12 12 0 0 1-12-12Z" fill="url(#hHouse)"/>
+    <rect x="-26" y="46" width="52" height="76" rx="8" fill="#DCF2EE"/>
+    <circle cx="16" cy="84" r="4" fill="#0A6157"/>
+    <rect x="-84" y="30" width="44" height="34" rx="7" fill="#3FAFA2"/>
+    <rect x="40" y="30" width="44" height="34" rx="7" fill="#3FAFA2"/>
+    <rect x="-84" y="30" width="44" height="14" rx="6" fill="#7FCEC3"/>
+    <rect x="40" y="30" width="44" height="14" rx="6" fill="#7FCEC3"/>
+    <rect x="-16" y="-122" width="32" height="42" rx="6" fill="#E2951F"/>
+    <path d="M-88 122h176" stroke="#0A6157" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+  </g>
+
+  <!-- heart pulse badge -->
+  <g transform="translate(404 236)">
+    <circle r="42" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <path d="M0 16S-24 2-24-12a13 13 0 0 1 24-7 13 13 0 0 1 24 7c0 14-24 28-24 28Z" fill="#E2951F"/>
+    <path d="M-13-4h7l4-9 6 18 4-9h6" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- nurse -->
+  <g transform="translate(118 210)">
+    <circle cx="0" cy="-46" r="26" fill="#B6E4DD"/>
+    <path d="M-14-56c0-16 8-26 20-24 9 1 14 8 14 15-8 2-16 1-22-2-3 6-8 10-12 11Z" fill="#06463F"/>
+    <path d="M-30-16h60l8 74h-76Z" fill="#fff"/>
+    <path d="M-30-16h60l2 14h-64Z" fill="#3FAFA2"/>
+    <path d="M-14-4v24M14-4v24" stroke="#0A6157" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-6 4h12v12H-6Z" fill="#0D7A6D"/>
+    <path d="M-14 58 0 96l14-38" fill="#0A6157"/>
+  </g>
+
+  <!-- IV drip -->
+  <g transform="translate(352 132)">
+    <rect x="-18" y="-30" width="36" height="56" rx="10" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <path d="M-18 4h36v10a10 10 0 0 1-10 10h-16a10 10 0 0 1-10-10Z" fill="#3FAFA2"/>
+    <rect x="-30" y="-42" width="60" height="12" rx="6" fill="#06463F"/>
+    <path d="M0 26v30" stroke="#B4C8C5" stroke-width="3" stroke-dasharray="5 5"/>
+  </g>
+</svg>

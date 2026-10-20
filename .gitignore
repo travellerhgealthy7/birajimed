@@ -1,0 +1,13 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.log
+*~

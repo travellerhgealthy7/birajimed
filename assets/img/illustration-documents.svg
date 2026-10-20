@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Medical documentation illustration showing a certificate with stamp and clipboard">
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1FAF8"/><stop offset="1" stop-color="#DCF2EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#cBg)"/>
+  <circle cx="404" cy="296" r="106" fill="#B6E4DD" opacity=".6"/>
+  <circle cx="64" cy="66" r="72" fill="#FCEFD8" opacity=".9"/>
+
+  <!-- certificate sheet -->
+  <g transform="translate(126 60)">
+    <rect x="0" y="0" width="212" height="256" rx="14" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <rect x="0" y="0" width="212" height="56" rx="14" fill="#06463F"/>
+    <rect x="0" y="40" width="212" height="16" fill="#06463F"/>
+    <circle cx="30" cy="28" r="11" fill="#3FAFA2"/>
+    <path d="M25 28l4 4 7-8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="50" y="22" width="104" height="12" rx="6" fill="#DCF2EE" opacity=".85"/>
+    <g fill="#E0EDEA">
+      <rect x="24" y="82" width="164" height="10" rx="5"/>
+      <rect x="24" y="104" width="140" height="10" rx="5"/>
+      <rect x="24" y="126" width="164" height="10" rx="5"/>
+      <rect x="24" y="148" width="108" height="10" rx="5"/>
+    </g>
+    <rect x="24" y="180" width="72" height="10" rx="5" fill="#DCF2EE"/>
+    <g transform="translate(24 200)">
+      <rect x="0" y="18" width="80" height="30" rx="5" fill="#FCEFD8"/>
+      <path d="M40 0c7 0 10 8 7 14-2 4-1 6 2 9 3 3 3 9-1 12-4 3-10 3-13 0-4-4-4-9-1-13 3-3 4-6 2-10-3-6 0-12 4-12Z" fill="#E2951F"/>
+    </g>
+  </g>
+
+  <!-- stamp -->
+  <g transform="translate(372 214) rotate(-14)">
+    <rect x="-34" y="-40" width="68" height="24" rx="8" fill="#0A6157"/>
+    <rect x="-24" y="-16" width="48" height="42" rx="9" fill="#0D7A6D"/>
+    <rect x="-14" y="-6" width="28" height="20" rx="5" fill="#DCF2EE"/>
+  </g>
+
+  <!-- pen -->
+  <g transform="translate(96 250) rotate(38)">
+    <rect x="-6" y="-70" width="12" height="96" rx="6" fill="#0A6157"/>
+    <rect x="-6" y="-70" width="12" height="26" rx="6" fill="#E2951F"/>
+    <path d="M-6 26h12l-6 20Z" fill="#B4C8C5"/>
+    <rect x="-6" y="4" width="12" height="8" fill="#C9DED9"/>
+  </g>
+
+  <!-- checklist card -->
+  <g transform="translate(56 120)">
+    <rect x="0" y="0" width="84" height="104" rx="12" fill="#fff" stroke="#C9DED9" stroke-width="2"/>
+    <rect x="12" y="16" width="60" height="8" rx="4" fill="#DCF2EE"/>
+    <g fill="none" stroke="#0D7A6D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m14 42 4 4 7-8"/><path d="m14 66 4 4 7-8"/><path d="m14 90 4 4 7-8"/>
+    </g>
+    <g fill="#E0EDEA">
+      <rect x="32" y="40" width="42" height="8" rx="4"/><rect x="32" y="64" width="42" height="8" rx="4"/><rect x="32" y="88" width="30" height="8" rx="4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "birajimedicine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clinic Pharmacy static website hosted on Firebase App Hosting",
+  "main": "server.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "apphosting:build": "node scripts/build.js",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

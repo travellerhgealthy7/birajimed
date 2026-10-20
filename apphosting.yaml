@@ -1,0 +1,19 @@
+# Firebase App Hosting configuration
+# Docs: https://firebase.google.com/docs/app-hosting/configure
+
+scripts:
+  runCommand: node server.js
+
+outputFiles:
+  # Anything not listed here is removed from the deployed image.
+  serverApp:
+    include:
+      - public
+      - server.js
+      - package.json
+
+runConfig:
+  maxInstances: 1
+  minInstances: 0
+  cpu: 1
+  memoryMiB: 512
